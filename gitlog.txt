@@ -1,0 +1,11 @@
+b9066cc accepted changes
+26bce21 second time replacing text
+dd32d02 replaced text
+59cdb3d added a line of text to file_1
+7f79253 saving new_features update
+57d0bd0 add empty file
+6d32545 created a .gitignore file
+c0c782e created a readme file with a description
+e8ab070 saved changes to file_2
+74da7f2 saved changes to file_1
+2e35b97 create new files

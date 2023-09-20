@@ -1,0 +1,116 @@
+   87  python3 ok -q sum_digits
+   88  python3 ok -q sum_digits
+   89  python3 ok -q sum_digits
+  498  python3 ok -q missing_digits
+  499  python3 ok -q missing_digits
+  500  python3 ok -q missing_digits
+  501  python3 ok -q missing_digits
+  502  python3 ok -q missing_digits
+  504  python3 ok -q missing_digits
+  841  $ brew install git
+  842  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  843  brew install git
+  844  git --version
+  845  git config --global use.name "Aleena Eskeets"
+  846  git config --global user.email "aleena.eskeets50@gmail.com"
+  847  git config --global core.editor "code --wait"
+  848  git config --global init.defaultBranch main
+  849  git --version
+  864  git clone "https://github.com/aleena-eskeets/gym2024data"
+  870  mk dir git_practice
+  871  mkdir git_practice
+  872  cd git_practivce
+  873  cd git_practice
+  874  git init
+  876  git status
+  881  git status
+  883  git commit "create new files"
+  886  git status
+  887  git add file_txt
+  888  git add file_1.txt
+  889  git add file_2.txt
+  890  git commit -m "create new files"
+  891  git status
+  892  git log
+  893  git status
+  894  git add file_1.txt
+  895  git commit "saved changes to file_1"
+  896  git commit -m "saved changes to file_1"
+  897  git status
+  898  git add file_2.txt
+  899  git commit -m "saved changes to file_2"
+  900  git log
+  903  git status
+  904  git add Readme.md
+  905  git commit -m "created a readme file with a description"
+  906  git log
+  907  touch .gitignore
+  908  nano .gitignore
+  910  git status
+  911  git add .gitignore
+  912  git commit -m "created a .gitignore file"
+  913  git status
+  915  git status
+  916  git branch features
+  917  git switch features
+  918  git log
+  920  git add new_features.txt
+  921  git commit -m "add empty file"
+  922  git status
+  923  git add new_features.txt
+  924  git commit -m "saving new_features update"
+  925  git switch main
+  926  git log
+  929  git add file_1.txt
+  930  git commit add file_1.txt
+  931  git commit -m "added a line of text to file_1"
+  932  git merge features
+  933  git status
+  935  git add new_features.txt
+  936  git commit
+  937  git commit -m "replaced text"
+  938  git status
+  939  git switch features
+  941  git add new_features.txt
+  942  git commit -m "second time replacing text"
+  943  git switch main
+  944  git merge features
+  945  git add new_features.txt
+  946  git commit -m "accepted changes"
+  947  git merge features
+  948  git branch -d features
+  949  git remote add origin https://github.com/aleena-eskeets/git-practice-aleena-eskeets
+  950  git push -u origin main
+  951  git push -u origin main
+  952  git push -u origin main
+  953  git remote add origin git@github.com:aleena-eskeets/git-practice-aleena-eskeets.git
+  954  git remote add origin git@github.com:aleena-eskeets/git-practice-aleena-eskeets.git\ngit branch -M main\ngit push -u origin main
+  955  git push -u origin main
+  956  git remote add origin https://github.com/aleena-eskeets/git-practice-aleena-eskeets
+  957  git push -u origin main
+  958  git remote add origin git@github.com:aleena-eskeets/git-practice-aleena-eskeets.git
+  959  git remote set-url origin git@github.com:aleena-eskeets/git-practice-aleena-eskeets.git\n
+  960  git push -u origin main
+  961  git clone git@github.com:aleena-eskeets/git-practice-SamLeeBYU.git
+  964  mkdir git_clone_practice
+  965  cd git_clone_practice
+  966  git clone git@github.com:aleena-eskeets/git-practice-SamLeeBYU.git
+  967  git branch feature-aleena-eskeets
+  968  cd git-practice-SamLeeBYU
+  969  git branch feature-aleena-eskeets
+  975  git add newfile_2.txt
+  976  git add newfile_1.txt
+  977  git commit -m "added some files for the hell of it"
+  978  git push origin feature-aleena-eskeets
+  980  git push origin feature-aleena-eskeets
+  981  git push origin feature-aleena-eskeets
+  983  git status
+  984  git push
+  985  git status
+  988  git status
+  989  git add file_1.txt
+  990  git commit -m "add like to file_1"
+  991  git push origin feature-aleena-eskeets
+ 1002  cd git-practice
+ 1004  cd git_practice
+ 1006  git log --oneline > gitlog.txt
